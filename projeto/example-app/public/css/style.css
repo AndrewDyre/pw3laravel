@@ -1,0 +1,32 @@
+body{
+  background-color: rgb(60, 62, 65);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: rgb(31, 70, 199);
+}
+
+p{
+font-family: Arial, Helvetica, sans-serif;
+}
