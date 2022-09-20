@@ -46,8 +46,17 @@ class ClienteController extends Controller
     $cliente -> nome = $request->txNome;
     $cliente -> email = $request->txEmail;
     $cliente -> fone = $request->txFone;
-    $cliente -> assunto = $request->txAssunto;
-    $cliente -> mensagem = $request->txMensagem;
+    $cliente -> dtNasc = $request->txdataNas;
+    $cliente -> estadoCivil = $request->txestadoCiv;
+    $cliente -> endereco = $request->txendereco;
+    $cliente -> numero = $request->txnumero;
+    $cliente -> complemento = $request->txcomplemento;
+    $cliente -> cep = $request->txcep;
+    $cliente -> cidade  = $request->txcidade;
+    $cliente -> estado = $request->txestado;
+    $cliente -> Rg = $request->txRg;
+    $cliente -> cpf = $request->txcpf;
+    $cliente -> celular = $request->txcelular;
     $cliente -> save();
     return redirect("/cliente");
     }
